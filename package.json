@@ -1,0 +1,33 @@
+{
+  "name": "iosd",
+  "version": "1.0.0",
+  "description": "courses",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js --ignore client",
+    "start": "node server.js",
+    "client-install": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "ankush & anant",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.437.0",
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "file-system": "^2.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.19",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-player": "^1.9.3",
+    "validator": "^10.11.0"
+  }
+}

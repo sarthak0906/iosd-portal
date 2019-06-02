@@ -1,0 +1,15 @@
+export const GET_ERRORS = 'GET_ERRORS';
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const GET_PROFILE ='GET_PROFILE'
+export const PROFILE_NOT_FOUND ='PROFILE_NOT_FOUND'
+export const PROFILE_LOADING ='PROFILE_LOADING'
+export const CLEAR_CURRENT_PROFILE ='CLEAR_CURRENT_PROFILE'
+
+export const GET_VIDEOS ='GET_VIDEOS'
+export const SET_URL ='SET_URL'
+
+export const GET_ALL_USERS ='GET_ALL_USERS'
+export const CLEAR_ALL_USERS ='CLEAR_ALL_USERS'
+
+export const ADD_EVENT ='ADD_EVENT'
+
